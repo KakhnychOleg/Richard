@@ -6,14 +6,15 @@
 
 /* Block */
 @import "header.css";
+@import "humb-menu.css";
 
 @import "footer";
 
 /* Global */
 .container {
-   max-width: 1080 + px;
+   max-width: 1150px;
    margin: 0 auto;
    padding: 0 20px;
    
-   font-family: 'OpenSans';
+   font-family: 'Gothic A1', sans-serif;
 }

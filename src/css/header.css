@@ -1,3 +1,33 @@
+.head {
+   background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+
 .header {
-   color: red;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+}
+
+.header__logo {
+   width: 120px;
+}
+
+.menu {
+   line-height: 20px;
+   display: flex;
+   font-size: 15px;
+   color: #FFFFFF;
+}
+
+.menu__item {
+   margin-left: 30px;
+}
+
+.menu__link {
+   transition: all .3s;
+}
+
+.menu__link:hover {
+   color: #FC0A7E;
 }
