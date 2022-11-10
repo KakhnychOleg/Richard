@@ -1,0 +1,19 @@
+/* Default */
+@import "reset.css";
+
+/* Fonts */
+@import "fonts.css";
+
+/* Block */
+@import "header.css";
+
+@import "footer";
+
+/* Global */
+.container {
+   max-width: 1080 + px;
+   margin: 0 auto;
+   padding: 0 20px;
+   
+   font-family: 'OpenSans';
+}
