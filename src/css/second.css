@@ -1,0 +1,11 @@
+.second {
+   padding-top: 100px;
+   background: #1B1B1B;
+   color: #fff;
+   text-align: center;
+}
+
+.second-bg {
+   margin: 0 auto;
+   max-width: 1200px;
+}
