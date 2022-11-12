@@ -135,7 +135,7 @@
    
    .hero__right {
       top: 25%;
-      right: 0%;
+      right: -12%;
    }
 }
 
@@ -158,6 +158,6 @@
    
    .hero__right {
       top: 50%;
-      right: 0%;
+      right: -12%;
    }
 }
