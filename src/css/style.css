@@ -45,6 +45,15 @@ body {
    color: #6B6B6B;
 }
 
+
+@media screen and (max-width: 390px){   
+   .title__main {
+      font-size: 28px;
+      line-height: 38px;
+   }
+}
+
+
 /* Animation text */
 .element-animation {
    opacity: 0;
@@ -55,4 +64,4 @@ body {
    opacity: 1;
    transition: all 1s;
    transform: translateY(0%);
- }
+}

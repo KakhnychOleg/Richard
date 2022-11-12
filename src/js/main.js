@@ -23,13 +23,3 @@ function onEntry(entry) {
   slidesToShow: 1,
   adaptiveHeight: true
 });
-
-$('.brands').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  infinite: true,
-  pauseOnFocus: false,
-  waitForAnimate: false,
-});

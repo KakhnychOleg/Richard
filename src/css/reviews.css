@@ -31,7 +31,7 @@
 }
 
 .slick-list {
-   overflow: visible;
+   overflow: hidden;
 }
 
 /* ---------------------brands--------------------------- */
@@ -40,9 +40,18 @@
    overflow: hidden;
 }
 
+.brands__item img{
+   margin: 0 auto;
+}
+
 /* ---------------------download----------------------------------- */
 .download-bg {
+   overflow: hidden;
    max-width: 100%;
+}
+
+.download-bg__img {
+   margin: 0 auto;
 }
 
 .download {
