@@ -34,6 +34,27 @@
    overflow: hidden;
 }
 
+
+@media screen and (max-width: 780px){
+   .reviews {
+      margin: 60px auto;
+   }
+
+   .reviews-slider__text {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 390px){  
+   .reviews {
+      margin: 40px auto;
+   }
+
+   .reviews-slider__text {
+      font-size: 16px;
+   }
+}
+
 /* ---------------------brands--------------------------- */
 .brands {
    margin: 100px auto;
@@ -52,6 +73,12 @@
 
 .download-bg__img {
    margin: 0 auto;
+}
+
+.download__links {
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .download {
@@ -93,6 +120,13 @@
 .download__link:hover {
    background: #df0970;
    border: 1px #df0970 solid;
+}
+
+@media screen and (max-width: 390px){  
+   .download__links {
+      flex-wrap: wrap;
+      gap: 20px;
+   }
 }
 
 /* -------------subscribe----------------------- */
@@ -145,4 +179,32 @@
 .subscribe__btn:hover {
    background: #df0970;
    color: #fff;
+}
+
+@media screen and (max-width: 780px){  
+   .subscribe {
+      padding: 100px 0;
+   }
+}
+
+@media screen and (max-width: 390px){  
+   .subscribe {
+      padding: 80px 0;
+   }
+
+   .form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+   }
+
+   .subscribe__btn {
+      border-radius: 3px;
+   }
+
+   .subscribe__input {
+      border-radius: 3px;
+   }
 }

@@ -11,3 +11,14 @@
    max-height: 650px;
 }
 
+@media screen and (max-width: 780px){
+   .second {
+      padding-top: 80px;
+   }
+}
+
+@media screen and (max-width: 390px){  
+   .second {
+      padding-top: 60px;
+   } 
+}

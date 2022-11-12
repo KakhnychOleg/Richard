@@ -95,9 +95,10 @@
    color: #6B6B6B;
 }
 
-@media screen and (max-width: 780px){   
-   .statistic {
-      flex-wrap: wrap;
+@media screen and (max-width: 780px){
+   .statistic,
+   .advantages {
+      margin: 60px auto;
    }
 
    .advantages {
@@ -148,7 +149,12 @@
    }
 }
 
-@media screen and (max-width: 390px){   
+@media screen and (max-width: 390px){  
+   .statistic,
+   .advantages {
+      margin: 40px auto;
+   }
+
    .statistic__item{
       width: 100%;
       padding: 20px 0;
